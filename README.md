@@ -8,7 +8,7 @@ Read in this order:
 4. `app/main.py`: the implementation of the Employee Attendance & Analytics API.
 5. `REVIEW.md`, `DECISIONS.md`: the starter-code review, identified defects, fixes, and design decisions.
 
-`sample_data/` contains the sample employee and attendance documents in MongoDB Extended JSON format. `sample_seed.py` loads the sample data into MongoDB.
+
 
 ## Local setup
 
@@ -37,11 +37,7 @@ MONGO_DB=attendance_db
 
 Alternatively, use a MongoDB Atlas connection string. Keep `.env` and all database credentials out of Git.
 
-Load the sample data:
 
-```bash
-python sample_seed.py
-```
 
 Start the API:
 
@@ -64,7 +60,6 @@ MongoDB indexes are created during application startup. See `DECISIONS.md` for t
 The implementation has been reviewed against the supplied API contract. Full integration verification of MongoDB aggregation results and execution plans remains incomplete; these should be tested against a real MongoDB instance before relying on them.
 
 
+Include openapi.yaml, DATA_MODEL.md, and permitted sample data/supporting files as appropriate.
 
-Include `openapi.yaml`, `DATA_MODEL.md`, and permitted sample data/supporting files as appropriate.
 
-**Do not commit `.env`, database credentials, secrets, or a Dockerfile.**
