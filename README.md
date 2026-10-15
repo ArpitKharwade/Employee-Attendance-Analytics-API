@@ -59,6 +59,6 @@ MongoDB indexes are created during application startup. See `DECISIONS.md` for t
 The implementation has been reviewed against the supplied API contract. Full integration verification of MongoDB aggregation results and execution plans remains incomplete; these should be tested against a real MongoDB instance before relying on them.
 
 
-Include openapi.yaml, DATA_MODEL.md, and permitted sample data/supporting files as appropriate.
+
 
 
