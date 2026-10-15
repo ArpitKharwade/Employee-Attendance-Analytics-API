@@ -3,7 +3,6 @@
 Read in this order:
 
 1. `PROBLEM_STATEMENT.docx`: the assignment requirements and evaluation criteria.
-2. `openapi.yaml`: the API contract and business rules (R1–R10).
 3. `DATA_MODEL.md`: the MongoDB data model and sample attendance records.
 4. `app/main.py`: the implementation of the Employee Attendance & Analytics API.
 5. `REVIEW.md`, `DECISIONS.md`: the starter-code review, identified defects, fixes, and design decisions.
